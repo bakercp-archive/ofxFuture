@@ -1,14 +1,24 @@
-//
-//  ofFutureTask.h
-//  example-basic
-//
-//  Created by Christopher P. Baker on 2/14/13.
-//
-//
+#pragma once
 
-#ifndef example_basic_ofFutureTask_h
-#define example_basic_ofFutureTask_h
+#include "Poco/Task.h"
+#include "Poco/TaskManager.h"
+#include "Poco/TaskNotification.h"
+#include "Poco/Observer.h"
 
+using Poco::Task;
+using Poco::TaskManager;
+using Poco::TaskNotification;
+using Poco::Observer;
 
-
-#endif
+class ofBaseTask : public Task {
+public:
+    
+    
+    public runTask() {
+        
+    }
+    
+protected:
+    
+    
+};
